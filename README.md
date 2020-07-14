@@ -1,5 +1,5 @@
-# dialogflow_ifttt_webhooks_smartlight_telebot
-Control your smart light bulb using Dialogflow, Webhooks, and IFTTT.
+# dialogflow_ifttt_webhooks_smartlight_chatbot
+Build a chatbot using Dialogflow, Webhooks, and IFTTT to control your smart light bulb. For this project, I'll be integrating it with telegram.
 
 # 1. Dialogflow
 
@@ -65,4 +65,4 @@ Go to the dropdown menu on the top-lefthand corner and select "Create new agent"
 # 4. Start your Telegram Bot
 - Type "/start" and "lights"
           
-        
+Special thanks to SoumyadeepPal for creating the IFTTT - Dialogflow connector (https://elements.heroku.com/buttons/soumyadeeppal/ifttt-dialogflow-webhook)
