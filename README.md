@@ -1,4 +1,4 @@
-# dialogflow_ifttt_webhooks_smartlight_chatbot
+# dialogflow-ifttt-webhooks-smartlight-chatbot
 Build a chatbot using Dialogflow, Webhooks, and IFTTT to control your smart light bulb. For this project, I'll be integrating it with telegram.
 
 # 1. Dialogflow
