@@ -17,14 +17,12 @@ Control your smart light bulb using Dialogflow, Webhooks, and IFTTT.
             - Card title: "On/Off lights?"
             - Button titles: "On", "Off"
         - Save and go back to Intents page
-
       2. Hover over the "lights" intent and select "Add follow-up intent"
         - Change the title to "lights - on"
         - Training Phrases: "On"
         - Telegram text response: "Switching on the lights..."
         - Fulfillment: "Enable webhook call for this intent"
         - Repeat the steps for "lights - off"
-        
       3. Telegram Integrations
         - Go to Integrations page
         - Enable Telegram; Get a Telegram access token from BotFather and insert it in the ‘Telegram Token’ field.
