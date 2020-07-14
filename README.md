@@ -1,4 +1,4 @@
-# dialogflow_ifttt_webhooks_smartlight
+# dialogflow_ifttt_webhooks_smartlight_telebot
 Control your smart light bulb using Dialogflow, Webhooks, and IFTTT.
 
 # 1. Dialogflow
@@ -12,6 +12,8 @@ Go to the dropdown menu on the top-lefthand corner and select "Create new agent"
 ![](https://github.com/rainyraina/dialogflow_ifttt_webhooks_smartlight/blob/master/github_photos/intents.PNG)
 1. **Click "CREATE INTENT" and change the title to "lights"**
 * Training Phrases : "lights", "On", "Off"
+
+![](https://github.com/rainyraina/dialogflow_ifttt_webhooks_smartlight/blob/master/github_photos/trainingphrases.PNG)
 * Responses: Click on "+" and select Telegram. 
 * "ADD RESPONSES", select "Card"
 * Card title: "On/Off lights?"
