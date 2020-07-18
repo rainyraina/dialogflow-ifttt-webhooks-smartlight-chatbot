@@ -19,7 +19,7 @@ Go to the dropdown menu on the top-lefthand corner and select "Create new agent"
 * Quick replies title: "On/Off lights?"
 * Button titles: "On", "Off"
 
-![]https://github.com/rainyraina/dialogflow-ifttt-webhooks-smartlight-chatbot/blob/master/github_photos/lightqr.PNG)
+![](https://github.com/rainyraina/dialogflow-ifttt-webhooks-smartlight-chatbot/blob/master/github_photos/lightqr.PNG)
 
 
 
