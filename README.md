@@ -74,6 +74,6 @@ Go to the dropdown menu on the top-lefthand corner and select "Create new agent"
 * Ensure that your Dialogflow intent and IFTTT are correct.
     
 # 4. Start your Telegram Bot
-- Type "/start" and "lights"
+- Type "/start" and "/lights"
           
 Special thanks to SoumyadeepPal for creating the IFTTT - Dialogflow connector (https://elements.heroku.com/buttons/soumyadeeppal/ifttt-dialogflow-webhook)
