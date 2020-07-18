@@ -11,20 +11,28 @@ Go to the dropdown menu on the top-lefthand corner and select "Create new agent"
 
 ![](https://github.com/rainyraina/dialogflow_ifttt_webhooks_smartlight/blob/master/github_photos/intents.PNG)
 1. **Click "CREATE INTENT" and change the title to "lights"**
-* Training Phrases : "lights", "On", "Off"
+* Training Phrases : "/lights"
 
 ![](https://github.com/rainyraina/dialogflow_ifttt_webhooks_smartlight/blob/master/github_photos/trainingphrases.PNG)
 * Responses: Click on "+" and select Telegram. 
-* "ADD RESPONSES", select "Card"
-* Card title: "On/Off lights?"
+* "ADD RESPONSES", select "Quick Replies"
+* Quick replies title: "On/Off lights?"
 * Button titles: "On", "Off"
 
-![](https://github.com/rainyraina/dialogflow_ifttt_webhooks_smartlight/blob/master/github_photos/lights.PNG)
+
 * Save and go back to Intents page
 2. **Hover over the "lights" intent and select "Add follow-up intent"**
+* Ensure that you add "lights-followup" as the input and output context
+
+![](https://github.com/rainyraina/dialogflow-ifttt-webhooks-smartlight-chatbot/blob/master/github_photos/context.PNG)
+
 * Change the title to "lights - on"
 * Training Phrases: "On"
-* Telegram text response: "Switching on the lights..."
+* Quick replies title:  "Switching on the lights..."
+* Button titles: "Off"
+
+![](https://github.com/rainyraina/dialogflow-ifttt-webhooks-smartlight-chatbot/blob/master/github_photos/quickreplies.PNG)
+
 * Fulfillment: "Enable webhook call for this intent"
 
 ![](https://github.com/rainyraina/dialogflow_ifttt_webhooks_smartlight/blob/master/github_photos/enable_webhook.PNG)
