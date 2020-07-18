@@ -13,11 +13,14 @@ Go to the dropdown menu on the top-lefthand corner and select "Create new agent"
 1. **Click "CREATE INTENT" and change the title to "lights"**
 * Training Phrases : "/lights"
 
-![](https://github.com/rainyraina/dialogflow_ifttt_webhooks_smartlight/blob/master/github_photos/trainingphrases.PNG)
+![](https://github.com/rainyraina/dialogflow-ifttt-webhooks-smartlight-chatbot/blob/master/github_photos/trainingphrases.PNG)
 * Responses: Click on "+" and select Telegram. 
 * "ADD RESPONSES", select "Quick Replies"
 * Quick replies title: "On/Off lights?"
 * Button titles: "On", "Off"
+
+![]https://github.com/rainyraina/dialogflow-ifttt-webhooks-smartlight-chatbot/blob/master/github_photos/lightqr.PNG)
+
 
 
 * Save and go back to Intents page
